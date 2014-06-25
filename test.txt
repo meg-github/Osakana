@@ -1,0 +1,22 @@
+void setup(){
+
+size(200,200);
+background(255);
+
+}
+
+void draw(){
+
+noStroke();
+fill(0);
+rect(10,10);
+
+}
+
+void mousePressed(){
+
+fill(100,100,100);
+ellipseMode(CENTER);
+ellipse(mouseX,mouseY,2,2);
+
+}
